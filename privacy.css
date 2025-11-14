@@ -1,0 +1,251 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE BACKGROUND */
+body {
+    background: #FFFFFF;
+    font-family: Manrope, sans-serif;
+    color: #2D2D2D;
+}
+
+/* HEADER */
+.policy-header {
+    width: 100%;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+/* LEFT LOGO + TEXT */
+.policy-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.policy-logo {
+    width: 41px;
+    height: 40px;
+}
+
+.policy-title {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2D2D2D;
+}
+
+/* DOWNLOAD BUTTON */
+.policy-btn {
+    width: 185px;
+    height: 60px;
+
+    background: #5B3765;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 16px;
+    padding: 16px 14px;
+
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.6);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    transition: 0.3s ease;
+}
+
+.policy-btn:hover {
+    background: #4b2d54;
+}
+
+.btn-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+/* CONTENT WRAPPER */
+.policy-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Heading */
+.policy-heading {
+    font-size: 16px;
+    font-weight: 4
+    00;
+    margin-bottom: 10px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.policy-date {
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/* MAIN POLICY TEXT */
+.policy-content {
+    width: 100%;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2D2D2D;
+    text-transform: uppercase;
+}
+
+/* Make huge text readable */
+.policy-content p {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* TERMS PAGE H3 STYLE */
+.policy-content h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 15px 0;
+    text-transform: uppercase; /* Remove if you don't want uppercase */
+}
+
+/* EMAIL LINK STYLE */
+.policy-content a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;   /* No underline */
+}
+
+/* Optional hover effect */
+.policy-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------------------------
+   RESPONSIVE DESIGN
+------------------------- */
+
+@media (max-width: 900px) {
+    .policy-header {
+        padding: 20px;
+    }
+
+    .policy-btn {
+        width: 160px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .policy-heading {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 600px) {
+    .policy-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .policy-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .policy-title {
+        font-size: 18px;
+    }
+
+    .policy-container {
+        margin-top: 20px;
+    }
+
+    .policy-content {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 450px) {
+    .policy-btn {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .policy-logo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .policy-title {
+        font-size: 16px;
+    }
+}
+
+
+/* ---------------------------------------
+   PRIVACY POLICY FOOTER
+--------------------------------------- */
+
+.policy-footer {
+    width: 100%;
+    background: #Fff; /* light pinkish background like screenshot */
+    padding: 30px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #2D2D2D;
+}
+
+.footer-text {
+    vertical-align: middle;
+}
+
+.footer-link {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 300;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+/* -------------- RESPONSIVE -------------- */
+
+@media (max-width: 600px) {
+    .policy-footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
