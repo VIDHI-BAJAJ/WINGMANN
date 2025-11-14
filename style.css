@@ -196,7 +196,7 @@ body {
 /* Text under icon */
 .how-text {
     font-family: Manrope;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 100%;
     color: #343059;
@@ -321,7 +321,7 @@ body {
 
 /* TEXT */
 .why-text {
-    width: 60%;
+    width: 80%;
     padding-right: 100px;
     margin-left: 120px;
 }
@@ -334,6 +334,12 @@ body {
     line-height: 140%;
     text-align: justify;
 }
+
+.gold-star {
+    color: #D4AF37; /* Rich gold */
+    font-weight: 700;
+}
+
 
 /* ---------------------------------------
    TRY IT OUT SECTION
@@ -348,7 +354,7 @@ body {
 
 /* Main Button */
 .try-btn {
-    width: 417px;
+    width: 317px;
     height: 112.5px;
     background: #5B2E68;
     border: none;
@@ -359,10 +365,9 @@ body {
     gap: 33.75px;
     font-family: Manrope;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 100%;
     color: #FFFFFF;
-    padding: 28.75px 41.25px;
     cursor: pointer;
     box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
     transition: 0.3s ease;
@@ -434,7 +439,7 @@ body {
 /* Card text */
 .no-card-text {
     font-family: Manrope;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 100%;
     color: #343059;
@@ -572,7 +577,7 @@ body {
     }
     
     .how-text {
-        font-size: 24px;
+        font-size: 20px;
         padding: 15px;
     }
     
@@ -695,7 +700,7 @@ body {
     }
     
     .no-card-text {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     /* FOOTER */
@@ -758,7 +763,7 @@ body {
     }
     
     .how-text {
-        font-size: 28px;
+        font-size: 22px;
     }
     
     /* WHAT ARE WE BUILDING SECTION */
@@ -846,7 +851,7 @@ body {
     }
     
     .no-card-text {
-        font-size: 26px;
+        font-size: 22px;
     }
 }
 
