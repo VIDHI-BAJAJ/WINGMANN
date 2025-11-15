@@ -614,7 +614,7 @@ body {
     
     .building-text p {
         font-size: 18px;
-        text-align: left;
+        text-align: justify;
     }
     
     /* WHY ARE WE BUILDING SECTION */
@@ -650,7 +650,7 @@ body {
     
     .why-text p {
         font-size: 18px;
-        text-align: left;
+        text-align: justify;
     }
     
     /* TRY IT OUT SECTION */
