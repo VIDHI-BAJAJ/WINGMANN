@@ -403,11 +403,11 @@ body {
     line-height: 100%;
     color: #343059;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 /* Card Container */
 .no-more-cards {
-    width: 1113px;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -431,8 +431,8 @@ body {
 
 /* Card images */
 .no-card-img {
-    width: 290px;
-    height: 287px;
+    width: 250px;
+    height: 230px;
     object-fit: contain;
 }
 
