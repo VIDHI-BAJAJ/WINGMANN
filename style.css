@@ -656,6 +656,12 @@ body {
         text-align: justify;
     }
     
+    
+.gold-star {
+    color: #D4AF37; /* Rich gold */
+    font-weight: 700;
+}
+
     /* TRY IT OUT SECTION */
     .try-section {
         margin-top: 80px;
@@ -824,6 +830,12 @@ body {
         font-size: 20px;
     }
     
+    
+.gold-star {
+    color: #D4AF37; /* Rich gold */
+    font-weight: 700;
+}
+
     /* TRY IT OUT SECTION */
     .try-section {
         margin-top: 100px;
@@ -889,6 +901,12 @@ body {
         width: 90%;
         max-width: 1200px;
     }
+    
+.gold-star {
+    color: #D4AF37; /* Rich gold */
+    font-weight: 700;
+}
+
 }
 
 /* LARGE DESKTOP: above 1920px */
@@ -905,6 +923,12 @@ body {
     .building-title {
         margin-left: auto;
     }
+    
+.gold-star {
+    color: #D4AF37; /* Rich gold */
+    font-weight: 700;
+}
+
 }
 
 /* Additional utility for very small mobile devices */
@@ -937,4 +961,10 @@ body {
         height: 70px;
         font-size: 20px;
     }
+    
+.gold-star {
+    color: #D4AF37; /* Rich gold */
+    font-weight: 700;
+}
+
 }
